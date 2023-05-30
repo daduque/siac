@@ -1,3 +1,8 @@
+:root{
+    --institucional: #003d6d;
+    --institucional-alterno: #1e3a69;
+}
+
 body{
     background-image: url(../images/SAIC_imagen.jpg);
     background-position: center -200px;
@@ -12,13 +17,13 @@ body{
 
 .btn-institucional:hover{
     background-color: white;
-    color: #003d6d;
+    color: var(--institucional-alterno);
 }
 
 
 .btn-institucional{
-    background: #003d6d;
-    box-shadow: 0 0 50px #003d6d;
+    background: var(--institucional-alterno);
+    box-shadow: 0 0 50px var(--institucional-alterno);
     color: white;
     font-weight: bold;
 }
